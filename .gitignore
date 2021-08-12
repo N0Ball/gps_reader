@@ -1,0 +1,12 @@
+# venv
+.venv/
+
+# datas
+datas/*
+!datas/sample.dat
+
+# pycache
+__pycache__
+
+# testing
+test.py

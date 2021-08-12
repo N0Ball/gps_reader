@@ -1,0 +1,12 @@
+---
+tests:
+- case: Validate invalid input string list
+  test_input:
+    input: ['1.5', '2.4']
+  expected:
+    result: Values of list must be only int or float
+- case: Validate invalid input not list
+  test_input:
+    input: {'a': 3, 'b': 4}
+  expected:
+    result: Value or Variance must only list

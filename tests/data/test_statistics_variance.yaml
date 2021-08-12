@@ -1,0 +1,12 @@
+---
+tests:
+- case: Validate int VARIANCE
+  test_input:
+    input: [1, 2, 3, 4, 5]
+  expected:
+    result: 2.5
+- case: Validate float VARIANCE 
+  test_input:
+    input: [1.1, 2.1, 3.1, 4.1, 5.1]
+  expected:
+    result: 2.5

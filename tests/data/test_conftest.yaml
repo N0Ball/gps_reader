@@ -1,0 +1,20 @@
+---
+tests:
+- case: Varify yaml config with string input 
+  test_input: 
+    input: Good
+  expected:
+    output: Good
+    type: str
+- case: Varify yaml config with int input 
+  test_input: 
+    input: 10
+  expected:
+    output: 10
+    type: int
+- case: Varify yaml config with float input 
+  test_input: 
+    input: 10.1
+  expected:
+    output: 10.1
+    type: float
